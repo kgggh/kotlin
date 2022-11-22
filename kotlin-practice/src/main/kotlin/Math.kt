@@ -10,6 +10,9 @@ fun main() {
     println(a.contentToString())
     prompt1("이름1")
     prompt2("이름4")
+
+    println("========================")
+    println(rectangleArea(width = 10.0, height = 2.0 ))
 }
 
 fun circleArea(radius:Double): Double {
@@ -30,3 +33,7 @@ fun increment(a: IntArray): Int {
 //fun readInt():Int {
 //    return readInt()!!.toInt()
 //}
+
+fun rectangleArea(width: Double, height: Double): Double {
+    return width * height
+}
