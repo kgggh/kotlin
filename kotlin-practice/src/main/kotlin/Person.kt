@@ -15,7 +15,13 @@ class Person {
         println("${this.fullName()}: ${this.age}")
     }
 
+    init {
+        println( "첫번째 초기화 해볼게요~~~ ${fullName()}")
+    }
 
+    init {
+        println( "두번쨰 초기화 해볼게요~~~ ${fullName()}")
+    }
 }
 
 fun main() {
